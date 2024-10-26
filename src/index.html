@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;750;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark-900 text-white font-sans relative">
+    <!-- Navigation Bar -->
+    <nav class="fixed z-50 w-full top-[30px]">
+      <div class="container">
+        <div
+          class="flex justify-between items-center bg-dark-750 text-white rounded-[20px] py-[24px] px-[30px]"
+        >
+          <a class="flex font-extrabold text-[24px]">
+            <img
+              src="./logo-square.svg"
+              alt="My company logo"
+              class="mr-[10px]"
+            />
+            Nidejia
+          </a>
+
+          <ul
+            class="hidden lg:flex font-semibold text-[16px] items-center space-x-[30px]"
+          >
+            <li><a href="#" class="hover:text-gray-400">Featured</a></li>
+            <li><a href="#" class="hover:text-gray-400">Categories</a></li>
+            <li><a href="#" class="hover:text-gray-400">Testimonials</a></li>
+            <li><a href="#" class="hover:text-gray-400">About</a></li>
+          </ul>
+
+          <div class="hidden md:flex flex-row items-center">
+            <a
+              href="#"
+              class="bg-dark-650 hover:bg-dark-800 text-white font-semibold text-[16px] py-[12px] px-[24px] rounded-full mr-[12px]"
+              >Sign In</a
+            >
+            <a
+              href="#"
+              class="bg-primary hover:bg-orange-600 text-dark-750 font-semibold text-[16px] py-[12px] px-[24px] rounded-full"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Sectiom -->
+    <section class="bg-[url('./hero-bg.png')] bg-cover bg-center relative">
+      <div
+        class="absolute top-0 left-0 w-full min-h-screen bg-gradient-to-r from-black z-10"
+      ></div>
+
+      <div
+        class="container flex flex-col justify-center items-center lg:items-start min-h-screen z-20 relative"
+      >
+        <div
+          class="flex flex-col items-center lg:items-start md:max-w-[80%] lg:max-w-[60%] xl:max-w-[60%]"
+        >
+          <h1
+            class="text-[38px] md:text-[55px] font-bold mb-[10px] text-balance text-center lg:text-left"
+          >
+            Find Glorious Living And Loving Space
+          </h1>
+          <p
+            class="text-[16px] lg:text-[18px] leading-[32px] mb-[50px] text-balance text-center lg:text-left"
+          >
+            Dolor house comfortable si amet with cheap price that also lorem
+            when you need grow.
+          </p>
+          <div class="flex items-center justify-between w-[80%] lg:w-full">
+            <input
+              class="text-white text-[16px] lg:text-[20px] py-[16px] lg:py-[20px] px-[26px] lg:px-[30px] bg-dark-750 w-full rounded-l-full placeholder:text-dark-600"
+              placeholder="Search by city or country..."
+            />
+            <button
+              class="bg-primary text-dark-800 font-semibold text-[16px] lg:text-[20px] py-[16px] lg:py-[20px] px-[20px] lg:px-[40px] rounded-r-full hover:bg-orange-500"
+            >
+              <img src="./arrow-right.png" class="flex md:hidden" />
+              <p class="md:flex hidden">Explore</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="container -mt-[64px]">
+      <div class="bg-dark-750 rounded-[20px] py-[29px] relative z-30">
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 divide-x-0 md:divide-x divide-border gap-y-[30px]"
+        >
+          <div
+            class="flex flex-col lg:flex-row w-full items-center justify-center"
+          >
+            <div
+              class="flex h-[70px] w-[70px] bg-primary rounded-full lg:mr-[16px] items-center justify-center"
+            >
+              <img src="./info-section/house-2.png" />
+            </div>
+            <div class="flex flex-col text-center lg:text-left mt-2 lg:mt-0">
+              <h3 class="font-bold text-[28px]">382M</h3>
+              <p class="text-[16px] text-dark-600">Kos Available</p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row items-center justify-center">
+            <div
+              class="flex h-[70px] w-[70px] bg-primary rounded-full lg:mr-[16px] items-center justify-center"
+            >
+              <img src="./info-section/profile-2user.png" />
+            </div>
+            <div class="flex flex-col text-center lg:text-left mt-2 lg:mt-0">
+              <h3 class="font-bold text-[28px]">9/10</h3>
+              <p class="text-[16px] text-dark-600">People Happy</p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row items-center justify-center">
+            <div
+              class="flex h-[70px] w-[70px] bg-primary rounded-full lg:mr-[16px] items-center justify-center"
+            >
+              <img src="./info-section/security-user.png" />
+            </div>
+            <div class="flex flex-col text-center lg:text-left mt-2 lg:mt-0">
+              <h3 class="font-bold text-[28px]">100%</h3>
+              <p class="text-[16px] text-dark-600">High Security</p>
+            </div>
+          </div>
+          <div class="flex flex-col lg:flex-row items-center justify-center">
+            <div
+              class="flex h-[70px] w-[70px] bg-primary rounded-full lg:mr-[16px] items-center justify-center"
+            >
+              <img src="./info-section/global.png" />
+            </div>
+            <div class="flex flex-col text-center lg:text-left mt-2 lg:mt-0">
+              <h3 class="font-bold text-[28px]">183</h3>
+              <p class="text-[16px] text-dark-600">Countries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Deals Section -->
+    <section class="container mt-[36px] pt-[64px] pb-[100px] items-center">
+      <h2 class="font-bold text-[24px] md:text-[28px] text-center">
+        Our Latest Deals
+      </h2>
+      <p class="text-[18px] text-dark-600 text-balance text-center">
+        Explore the beauty of architecture and living love
+      </p>
+      <div class="flex mt-[30px] relative">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px] w-full"
+        >
+          <a
+            href="#"
+            class="aspect-[260/350] flex items-end w-full h-auto rounded-[24px] bg-[url('./latest-deals/img-1.png')] bg-cover bg-center relative"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+            ></div>
+
+            <div class="relative p-[20px] w-full z-20">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col mr-3">
+                  <div class="font-bold text-[20px]">De Flecce</div>
+                  <div class="font-semibold text-[14px]">
+                    $47,298 <span class="font-normal">/mo</span>
+                  </div>
+                </div>
+                <div class="flex flex-row justify-end">
+                  <img
+                    src="./latest-deals/icon/star.png"
+                    class="h-[20px] w-[20px]"
+                  />
+                  <div class="text-[14px]">4.5/5</div>
+                </div>
+              </div>
+              <div class="mt-[14px] flex flex-row justify-between">
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/format-square.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">529 sqft</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/profile-2user.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">3</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/wifi.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">10gb</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="hidden aspect-[260/350] md:flex items-end w-full h-auto rounded-[24px] bg-[url('./latest-deals/img-2.png')] bg-cover bg-center relative"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+            ></div>
+
+            <div class="relative p-[20px] w-full z-20">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col mr-3">
+                  <div class="font-bold text-[20px]">Party Every</div>
+                  <div class="font-semibold text-[14px]">
+                    $47,298 <span class="font-normal">/mo</span>
+                  </div>
+                </div>
+                <div class="flex flex-row justify-end">
+                  <img
+                    src="./latest-deals/icon/star.png"
+                    class="h-[20px] w-[20px]"
+                  />
+                  <div class="text-[14px]">4.5/5</div>
+                </div>
+              </div>
+              <div class="mt-[14px] flex flex-row justify-between">
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/format-square.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">529 sqft</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/profile-2user.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">3</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/wifi.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">10gb</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="hidden aspect-[260/350] lg:flex items-end w-full h-auto rounded-[24px] bg-[url('./latest-deals/img-3.png')] bg-cover bg-center relative"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+            ></div>
+
+            <div class="relative p-[20px] w-full z-20">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col mr-3">
+                  <div class="font-bold text-[20px]">Brown Hall</div>
+                  <div class="font-semibold text-[14px]">
+                    $47,298 <span class="font-normal">/mo</span>
+                  </div>
+                </div>
+                <div class="flex flex-row justify-end">
+                  <img
+                    src="./latest-deals/icon/star.png"
+                    class="h-[20px] w-[20px]"
+                  />
+                  <div class="text-[14px]">4.5/5</div>
+                </div>
+              </div>
+              <div class="mt-[14px] flex flex-row justify-between">
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/format-square.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">529 sqft</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/profile-2user.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">3</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/wifi.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">10gb</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="hidden aspect-[260/350] lg:flex items-end w-full h-auto rounded-[24px] bg-[url('./latest-deals/img-4.png')] bg-cover bg-center relative"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+            ></div>
+
+            <div class="relative p-[20px] w-full z-20">
+              <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col mr-3">
+                  <div class="font-bold text-[20px]">Mini Max</div>
+                  <div class="font-semibold text-[14px]">
+                    $47,298 <span class="font-normal">/mo</span>
+                  </div>
+                </div>
+                <div class="flex flex-row justify-end">
+                  <img
+                    src="./latest-deals/icon/star.png"
+                    class="h-[20px] w-[20px]"
+                  />
+                  <div class="text-[14px]">4.5/5</div>
+                </div>
+              </div>
+              <div class="mt-[14px] flex flex-row justify-between">
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/format-square.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">529 sqft</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/profile-2user.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">3</p>
+                </div>
+                <div class="flex flex-row">
+                  <img
+                    src="./latest-deals/icon/wifi.png"
+                    class="h-[18px] aspect-square mr-[4px]"
+                  />
+                  <p class="text-[14px]">10gb</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <button
+          class="flex bg-dark-750 h-[50px] aspect-square rounded-full z-10 items-center justify-center absolute top-[20%] left-0 -ml-[25px] shadow-lg"
+        >
+          <img src="./latest-deals/icon/arrow-left.png" />
+        </button>
+
+        <button
+          class="flex bg-dark-750 h-[50px] aspect-square rounded-full z-10 items-center justify-center absolute top-[20%] right-0 -mr-[25px] shadow-lg"
+        >
+          <img src="./latest-deals/icon/arrow-right.png" />
+        </button>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="bg-dark-750 py-[50px]">
+      <div class="container">
+        <div class="flex flex-row justify-between items-center">
+          <div class="flex flex-col">
+            <h2 class="font-bold text-[24px] md:text-[28px]">Categories</h2>
+            <p class="text-[18px] text-dark-600 text-balance">
+              We provide everything
+            </p>
+          </div>
+          <a
+            href="#"
+            class="bg-primary hover:bg-orange-600 text-dark-750 font-semibold text-[16px] py-[12px] px-[24px] rounded-full ml-2"
+            >Explore</a
+          >
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px] mt-[30px]"
+        >
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/microscope.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Star Hills</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/buildings.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Apartment</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/house-2.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Nearby City</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/building-4.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Landed House</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/airplane.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Airport</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/cup.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Awards</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/sun-fog.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Sunset</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="flex flex-row items-center bg-dark-700 rounded-[20px] py-[16px] px-[20px] w-full"
+          >
+            <img
+              src="./categories/element-equal.png"
+              class="h-[36px] aspect-square mr-[16px]"
+            />
+            <div class="flex flex-col">
+              <div class="font-bold text-[20px]">Others</div>
+              <p class="text-[16px] text-dark-600">18,394</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section
+      class="flex container mt-[100px] flex-col md:flex-row md:gap-x-4 lg:gap-x-[97px]"
+    >
+      <div class="flex-none flex-col">
+        <h2 class="font-bold text-[24px] md:text-[28px]">
+          Huge Benefits That <br />Make You Feel Happier
+        </h2>
+        <ul class="my-[30px] space-y-[20px]">
+          <li
+            class="flex flex-row items-center gap-[12px] font-semibold text-[18px]"
+          >
+            <img
+              src="./benefits/tick-circle.png"
+              class="h-[32px] aspect-square"
+            />
+            Checking faster without depositing
+          </li>
+          <li
+            class="flex flex-row items-center gap-[12px] font-semibold text-[18px]"
+          >
+            <img
+              src="./benefits/tick-circle.png"
+              class="h-[32px] aspect-square"
+            />
+            24/7 security guarding your place
+          </li>
+          <li
+            class="flex flex-row items-center gap-[12px] font-semibold text-[18px]"
+          >
+            <img
+              src="./benefits/tick-circle.png"
+              class="h-[32px] aspect-square"
+            />
+            Fast-internet access without lagging
+          </li>
+          <li
+            class="flex flex-row items-center gap-[12px] font-semibold text-[18px]"
+          >
+            <img
+              src="./benefits/tick-circle.png"
+              class="h-[32px] aspect-square"
+            />
+            High standard of layout of houses
+          </li>
+          <li
+            class="flex flex-row items-center gap-[12px] font-semibold text-[18px]"
+          >
+            <img
+              src="./benefits/tick-circle.png"
+              class="h-[32px] aspect-square"
+            />
+            All other benefits, we promise
+          </li>
+        </ul>
+        <div class="flex flex-row">
+          <a
+            href="#"
+            class="flex flex-row bg-primary hover:bg-orange-600 text-dark-750 font-semibold text-[16px] py-[12px] px-[24px] rounded-full"
+          >
+            <img
+              src="./benefits/message-notif.png"
+              class="h-[20px] aspect-square mr-[10px]"
+            />
+            Call Sales
+          </a>
+          <a
+            href="#"
+            class="bg-dark-650 hover:bg-dark-800 text-white font-semibold text-[16px] py-[12px] px-[24px] rounded-full ml-[14px]"
+            >All Benefits</a
+          >
+        </div>
+      </div>
+
+      <div class="hidden md:grid grid-cols-1 lg:grid-cols-2 gap-[30px] w-full">
+        <a
+          href="#"
+          class="flex items-end w-auto h-full rounded-[24px] bg-[url('./benefits/item-purpose-3.png')] bg-cover bg-center relative"
+        >
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+          ></div>
+
+          <div class="relative p-[20px] w-full z-20">
+            <div class="flex flex-row justify-between items-center">
+              <div class="flex flex-col">
+                <div class="font-bold text-[20px] text-balance">
+                  House for Office <br />and Living
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  src="./latest-deals/icon/profile-2user.png"
+                  class="h-[18px] aspect-square mr-[4px]"
+                />
+                <p class="text-[14px]">18,309</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex items-end w-auto h-full rounded-[24px] bg-[url('./benefits/item-purpose-2.png')] bg-cover bg-center relative"
+        >
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+          ></div>
+
+          <div class="relative p-[20px] w-full z-20">
+            <div class="flex flex-row justify-between items-center">
+              <div class="flex flex-col">
+                <div class="font-bold text-[20px] text-balance">
+                  House Nearby <br />with Mall
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  src="./latest-deals/icon/profile-2user.png"
+                  class="h-[18px] aspect-square mr-[4px]"
+                />
+                <p class="text-[14px]">84,209</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="hidden lg:flex items-end w-auto h-full rounded-[24px] bg-[url('./benefits/item-purpose-1.png')] bg-cover bg-center relative"
+        >
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+          ></div>
+
+          <div class="relative p-[20px] w-full z-20">
+            <div class="flex flex-row justify-between items-center">
+              <div class="flex flex-col">
+                <div class="font-bold text-[20px] text-balance">
+                  House Historical <br />Building
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  src="./latest-deals/icon/profile-2user.png"
+                  class="h-[18px] aspect-square mr-[4px]"
+                />
+                <p class="text-[14px]">22,409</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="hidden lg:flex items-end w-auto h-full rounded-[24px] bg-[url('./benefits/item-purpose.png')] bg-cover bg-center relative"
+        >
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-45% z-10"
+          ></div>
+
+          <div class="relative p-[20px] w-full z-20">
+            <div class="flex flex-row justify-between items-center">
+              <div class="flex flex-col">
+                <div class="font-bold text-[20px] text-balance">
+                  Landed House <br />with Park
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  src="./latest-deals/icon/profile-2user.png"
+                  class="h-[18px] aspect-square mr-[4px]"
+                />
+                <p class="text-[14px]">47,583</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Customer Section -->
+    <section class="container my-[100px] items-center">
+      <h2 class="text-center font-bold text-[24px] md:text-[28px]">
+        Happy Customers
+      </h2>
+      <p class="text-[18px] text-dark-600 text-center">
+        We’d love to come back again soon
+      </p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[30px]">
+        <div class="grid gap-[30px]">
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              I was not so sure if there was a beautiful bedroom, but it was
+              really great experience.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              It’s just amazing, will be back.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              I was not so sure if there was a beautiful bedroom, but it was
+              really great experience.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-[30px]">
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              Price was too low yet luxury.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              I was not so sure if there was a beautiful bedroom, but it was
+              really great experience.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              During covid I was stayed here and I got a lot of full of supports
+              that I need to keep my body healthy.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden lg:grid gap-[30px]">
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              I was not so sure if there was a beautiful bedroom, but it was
+              really great experience.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              It’s just amazing, will be back.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-fit max-w-full rounded-[20px] bg-dark-750 py-[16px] px-[20px] space-y-[20px]"
+          >
+            <div class="flex flex-row">
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+              <img
+                src="./latest-deals/icon/star.png"
+                class="h-[20px] w-[20px]"
+              />
+            </div>
+            <p class="text-[18px] text-balance">
+              I was not so sure if there was a beautiful bedroom, but it was
+              really great experience.
+            </p>
+            <div class="flex flex-row">
+              <img
+                src="./reviews/photo.png"
+                class="h-[50px] aspect-square mr-[12px]"
+              />
+              <div>
+                <p class="font-semibold text-[16px]">Evelin Bie</p>
+                <p class="text-dark-600 text-[14px]">Full-Time Traveler</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-750 py-[100px]">
+      <div class="container space-y-[50px]">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-12">
+          <ul class="space-y-[12px]">
+            <li><a class="text-[16px] font-semibold">Solutions</a></li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#" href="#"
+                >Credit Rewards</a
+              >
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">P2P Renting</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Open for Listing</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">AI Automation</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">APIs Developer</a>
+            </li>
+          </ul>
+          <ul class="space-y-[12px]">
+            <li><a class="text-[16px] font-semibold">Product</a></li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#" href="#"
+                >Featured House</a
+              >
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#"
+                >Browse Categories</a
+              >
+            </li>
+            <li>
+              <a class="text-[16px] text-primary font-semibold" href="#"
+                >Special Awardsg</a
+              >
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Made-In Bandung</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Exclusive Style</a>
+            </li>
+          </ul>
+          <ul class="space-y-[12px]">
+            <li><a class="text-[16px] font-semibold">Company</a></li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#" href="#"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Our Investors</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Missions 2024</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Careers</a>
+            </li>
+            <li>
+              <a class="text-[16px] text-dark-600" href="#">Media Press</a>
+            </li>
+          </ul>
+          <div class="md:col-span-2">
+            <div class="text-[16px] font-semibold mb-[12px]">
+              Subscribe & Free Rewards
+            </div>
+            <div
+              class="py-[12px] px-[20px] bg-white rounded-full flex flex-row relative"
+            >
+              <img
+                src="./sms.png"
+                class="hidden md:flex h-[24px] aspect-square mr-[10px]"
+              />
+              <input
+                class="text-[12px] md:text-[16px] text-black placeholder:text-dark-600 max-w-[70%] lg:max-w-[50%] focus:ring-0 focus:outline-none"
+                placeholder="Email Address"
+              />
+
+              <button
+                class="flex bg-primary hover:bg-orange-600 text-dark-750 font-semibold md:text-[16px] h-full md:px-[24px] aspect-square rounded-full absolute top-0 right-0 items-center justify-center"
+              >
+                <img src="./arrow-right.png" class="flex md:hidden" />
+                <p class="md:flex hidden">Subscribe</p>
+              </button>
+            </div>
+            <div class="mt-[30px]">
+              <p class="text-[16px] font-semibold">Choose Language</p>
+              <div class="flex flex-row items-center mt-[12px] space-x-[10px]">
+                <img
+                  src="./uk-flag.png"
+                  class="h-[20px] aspec-[27/20] w-auto"
+                />
+                <p class="text-[16px]">English (UK)</p>
+                <img
+                  src="./arrow-down.png"
+                  class="h-[18px] aspect-square w-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full border-[1px] border-border"></div>
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <a class="flex font-extrabold text-[24px]">
+            <img
+              src="./logo-square.svg"
+              alt="My company logo"
+              class="mr-[10px]"
+            />
+            Nidejia
+          </a>
+          <p
+            class="text-center md:text-right text-[16px] text-dark-600 mt-8 md:mt-0"
+          >
+            All Rights Reserved Nidejia BuildWithAngga 2024
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
